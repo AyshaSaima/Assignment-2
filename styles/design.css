@@ -53,3 +53,35 @@ font-weight: 700;
     background: rgba(11, 2, 35, 0.10);
     padding: 17px 24px;
 }
+/* Here is the banner design */
+.banner-main{
+    display: flex;
+    justify-content: center;
+    
+}
+.banner-title1{
+    color: #0B0223;
+/* text-align: center; */
+font-size: 3rem;
+font-weight: 600;
+text-transform: uppercase;
+margin-bottom: 0;
+}
+.banner-title2{
+    /* text-align: center; */
+    font-size: 6rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.banner-main-1 p{
+    color: #534C64;
+/* text-align: center; */
+font-size: 1.25rem;
+font-weight: 500;
+}
