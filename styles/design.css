@@ -71,15 +71,11 @@
 
 .banner-main-1 {
     padding-left: 150px;
-    /* background-image: url('../images/Group\ 14.png');
-    background-position: center; */
-
-    /* fill: linear-gradient(223deg, rgba(140, 87, 238, 0.03) 0%, rgba(241, 68, 174, 0.03) 100%); */
+    
 }
 
 .banner-title1 {
     color: #0B0223;
-    /* text-align: center; */
     font-size: 3rem;
     font-weight: 600;
     text-transform: uppercase;
