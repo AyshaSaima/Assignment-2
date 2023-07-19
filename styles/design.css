@@ -63,15 +63,16 @@
     display: flex;
     justify-content: center;
     background-color: #FFF;
-    ;
+
+
 
 }
 
 .banner-main-1 {
     padding-left: 150px;
-    background-image: url('../images/Group\ 14.png');
-    background-repeat: no-repeat;
-    background-size: auto;
+    /* background-image: url('../images/Group\ 14.png');
+    background-position: center; */
+
     /* fill: linear-gradient(223deg, rgba(140, 87, 238, 0.03) 0%, rgba(241, 68, 174, 0.03) 100%); */
 }
 
@@ -190,7 +191,7 @@
 }
 
 /* Here is the design of play instant section */
-.play-instant-main-sec{
+.play-instant-main-sec {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -199,6 +200,7 @@
 
 
 }
+
 .play-instant-main1-h {
     text-align: right;
     font-size: 3rem;
@@ -219,21 +221,59 @@
     font-size: 1.13rem;
     font-weight: 400;
 }
-.play-instant-main2{
+
+.play-instant-main2 {
     display: flex;
 }
-.play-instant-pic1-pos{
+
+.play-instant-pic1-pos {
     height: 270px;
     width: 230px;
     position: relative;
     top: 290px;
-    left:120px;
+    left: 120px;
 
 }
-.play-instant-pic2-pos{
+
+.play-instant-pic2-pos {
 
     height: 480px;
     width: 480px;
 
 }
+
 /* Here is the design of icon section */
+.icon-main-container{
+    background-color: (90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    height: 400px;
+}
+.icon-container1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 140px;
+    margin-right: 140px;
+    margin-top: 150px;
+    padding-top: 100px;
+    
+}
+.icon-container1-pic {
+    display: flex;
+    gap: 10px;
+    border: 1px solid black;
+    border-radius: 50px;
+    background: #FFF;
+    width: 200px;
+
+}
+
+.icon-container1 img {
+    height: 50px;
+    width: 50px;
+}
+
+.icon-container1 p {
+    color: #0B0223;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
