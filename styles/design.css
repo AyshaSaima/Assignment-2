@@ -166,7 +166,8 @@
     margin-bottom: 35px;
 
 }
-.online-games-main2{
+
+.online-games-main2 {
     display: flex;
     justify-content: space-evenly;
     gap: 20px;
@@ -179,9 +180,60 @@
     font-size: 1.3rem;
     font-weight: 500;
 }
-.online-games-pic1-size{
+
+.online-games-pic1-size {
     width: 250px;
 }
-#online-games-pic1-size1{
+
+#online-games-pic1-size1 {
     padding-left: 72px;
 }
+
+/* Here is the design of play instant section */
+.play-instant-main-sec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+
+}
+.play-instant-main1-h {
+    text-align: right;
+    font-size: 3rem;
+    font-weight: 700;
+
+}
+
+.play-instant-main1-h1 {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.play-instant-main1-description {
+    color: #534C64;
+    text-align: right;
+    font-size: 1.13rem;
+    font-weight: 400;
+}
+.play-instant-main2{
+    display: flex;
+}
+.play-instant-pic1-pos{
+    height: 270px;
+    width: 230px;
+    position: relative;
+    top: 290px;
+    left:120px;
+
+}
+.play-instant-pic2-pos{
+
+    height: 480px;
+    width: 480px;
+
+}
+/* Here is the design of icon section */
