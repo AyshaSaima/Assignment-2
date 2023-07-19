@@ -83,7 +83,7 @@
 }
 
 .banner-title2 {
-    /* text-align: center; */
+    
     font-size: 6rem;
     font-weight: 800;
     text-transform: uppercase;
@@ -413,7 +413,12 @@ footer {
         margin-left: 0;
         margin-right: 0;
     }
-    
+    .footer-2 ul {
+        flex-direction: column;
+    }
+    footer {
+        height: 1000px;
+    }
     
     
 }
