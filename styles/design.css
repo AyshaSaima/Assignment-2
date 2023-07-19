@@ -6,13 +6,14 @@
 * {
     font-family: 'Work Sans', sans-serif;
 }
+
 /* This is the design of navbar */
 .nav-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-left:  150px;
-    margin-right:  150px;
+    margin-left: 150px;
+    margin-right: 150px;
     margin-top: 0;
 }
 
@@ -20,14 +21,16 @@
     display: flex;
     gap: 20px;
 }
-.nav-logo{
+
+.nav-logo {
     height: 40%;
     padding-top: 45px;
 }
-.nav-heading1{
+
+.nav-heading1 {
     text-align: center;
-font-size: 2.8rem;
-font-weight: 700;
+    font-size: 2.8rem;
+    font-weight: 700;
 }
 
 .nav-options ul {
@@ -44,7 +47,8 @@ font-weight: 700;
     font-weight: 500;
 
 }
-.nav-options1{
+
+.nav-options1 {
     margin-top: 17px;
 }
 
@@ -53,21 +57,33 @@ font-weight: 700;
     background: rgba(11, 2, 35, 0.10);
     padding: 17px 24px;
 }
+
 /* Here is the banner design */
-.banner-main{
+.banner-main {
     display: flex;
     justify-content: center;
-    
+    background-color: #FFF;;
+
 }
-.banner-title1{
+
+.banner-main-1 {
+    padding-left: 150px;
+    background-image: url('../images/Group\ 14.png');
+    background-repeat: no-repeat;
+    background-size: auto;
+    /* fill: linear-gradient(223deg, rgba(140, 87, 238, 0.03) 0%, rgba(241, 68, 174, 0.03) 100%); */
+}
+
+.banner-title1 {
     color: #0B0223;
-/* text-align: center; */
-font-size: 3rem;
-font-weight: 600;
-text-transform: uppercase;
-margin-bottom: 0;
+    /* text-align: center; */
+    font-size: 3rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 0;
 }
-.banner-title2{
+
+.banner-title2 {
     /* text-align: center; */
     font-size: 6rem;
     font-weight: 800;
@@ -79,9 +95,44 @@ margin-bottom: 0;
     margin-top: 0;
     margin-bottom: 0;
 }
-.banner-main-1 p{
+
+.banner-main-1 p {
     color: #534C64;
-/* text-align: center; */
-font-size: 1.25rem;
-font-weight: 500;
+    /* text-align: center; */
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.banner-btn1 {
+    border: 0;
+    border-radius: 48px;
+    padding: 15px 30px;
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    color: #FFF;
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-right: 15px;
+
+}
+
+.banner-btn2 {
+    border: 0;
+    border-radius: 48px;
+background: #4EC5F7;
+padding: 15px 30px;
+color: #FFF;
+font-size: 1.3rem;
+font-weight: 600;
+}
+
+.banner-main-2 {
+    display: flex;
+    justify-content: center;
+    padding-left: 150px;
+
+}
+
+.banner-main-2 img {
+    width: 70%;
+    height: 100%;
 }
