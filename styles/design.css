@@ -244,8 +244,8 @@
 
 /* Here is the design of icon section */
 .icon-main-container{
-    background-color: (90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
-    height: 400px;
+   background-color: #FFF;
+    height: 350px;
 }
 .icon-container1{
     display: flex;
@@ -253,27 +253,35 @@
     align-items: center;
     margin-left: 140px;
     margin-right: 140px;
-    margin-top: 150px;
+    margin-top: 100px;
     padding-top: 100px;
     
 }
-.icon-container1-pic {
+.icon-container1-pic, .icon-container2-pic {
     display: flex;
     gap: 10px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     border-radius: 50px;
     background: #FFF;
     width: 200px;
 
 }
 
-.icon-container1 img {
+.icon-container1 img, .icon-container2 img {
     height: 50px;
     width: 50px;
 }
 
-.icon-container1 p {
+.icon-container1 p, .icon-container2 p{
     color: #0B0223;
     font-size: 0.9rem;
     font-weight: 600;
+}
+.icon-container2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-top: 25px;
 }
