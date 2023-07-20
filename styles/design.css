@@ -15,7 +15,7 @@
     margin-left: 150px;
     margin-right: 150px;
     margin-top: 0;
-    
+
 }
 
 .nav-heading {
@@ -43,7 +43,6 @@
 .nav-options li a {
     text-decoration: none;
     color: #3C354F;
-    font-family: Work Sans;
     font-size: 1.13rem;
     font-weight: 500;
 
@@ -68,10 +67,14 @@
 
 
 }
+.banner-main-1{
+    background-image: url('../images/Group\ 14.png');
+    background-size: 100% 100%;
 
-.banner-main-1 {
+}
+.banner-main-11 {
     padding-left: 150px;
-    
+
 }
 
 .banner-title1 {
@@ -83,7 +86,7 @@
 }
 
 .banner-title2 {
-    
+
     font-size: 6rem;
     font-weight: 800;
     text-transform: uppercase;
@@ -94,7 +97,6 @@
 
 .banner-main-1 p {
     color: #534C64;
-    /* text-align: center; */
     font-size: 1.25rem;
     font-weight: 500;
 }
@@ -180,13 +182,15 @@
 #online-games-pic1-size1 {
     padding-left: 72px;
 }
-.online-games-pic1-size:hover{
+
+.online-games-pic1-size:hover {
     border: 3px solid #FF42A5;
     border-radius: 16px;
     filter: brightness(50%);
     transform-origin: 0.2s;
-    
+
 }
+
 /* Here is the design of play instant section */
 .play-instant-main-sec {
     display: flex;
@@ -341,7 +345,8 @@ footer {
 
 }
 
-.footer-4 ul, .footer-5 p {
+.footer-4 ul,
+.footer-5 p {
     display: flex;
     justify-content: center;
     list-style: none;
@@ -352,74 +357,117 @@ footer {
     font-weight: 500;
 
 }
-.footer-5 p{
+
+.footer-5 p {
     padding-top: 5px;
 }
 
 /* Responsive for mobile large */
 @media screen and (max-width:425px) {
-    .nav-options ul{
+
+    .nav-options ul {
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
-    .nav-container{
+
+    .nav-container {
         flex-direction: column;
 
     }
-    .banner-main{
+
+    .nav-icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+   }
+
+    .banner-main {
         flex-direction: column-reverse;
     }
+    .banner-main-1{
+        background-size: 100% 100%;
+    }
+
     .banner-main-2 img {
         width: 100%;
         height: 100%;
     }
-    .banner-main-1,.banner-main-2{
+
+    .banner-main-11,
+    .banner-main-2 {
         padding-left: 15px;
     }
+
     .online-games-main2 {
         flex-direction: column;
-        
+
     }
+
     #online-games-pic1-size1 {
         padding-left: 0;
     }
-    .play-instant-main-sec{
+
+    .play-instant-main-sec {
         flex-direction: column;
     }
+
+    .play-instant-main1-description {
+        text-align: center;
+    }
+
     .play-instant-pic1-pos {
-        height: 210px;
+        height: 190px;
         width: 160px;
         position: relative;
-        top: 200px;
+        top: 150px;
         left: 60px;
-    
-    }
-    
-    .play-instant-pic2-pos {
-        height: 350px;
-        width: 350px;
-    }
-    .play-instant-main2{
-        margin: 0;
-    }
-    .icon-main-container{
-        margin-top: 50px;
-        margin-bottom: 350px;
-    }
-    .icon-container1,.icon-container2{
-        margin-top: 0;
-        flex-direction: column;
-    }
-    .icon-container2{
-        margin-left: 0;
-        margin-right: 0;
-    }
-    .footer-2 ul {
-        flex-direction: column;
-    }
-    footer {
-        height: 1000px;
-    }
-    
-    
-}
 
+
+    }
+
+    .play-instant-pic2-pos {
+        height: 100%;
+        width: 100%;
+
+    }
+
+    .play-instant-main2 {
+        margin: 30px 0 0 0;
+
+    }
+    .icon-main-container {
+        
+        margin-bottom: 60px;
+    }
+     .icon-container1,.icon-container2 {
+
+        margin-top: 0;
+        margin-left: 0;
+        flex-direction: column;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        
+        
+    }
+
+    .footer-2 ul, .footer-3 ul {
+        flex-direction: column;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+    .footer-4 ul {
+        flex-direction: column;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .footer-5 p{
+        text-align: center;
+    }
+
+    footer {
+        height: 800px;
+    }
+
+
+}
