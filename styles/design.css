@@ -63,15 +63,14 @@
     display: flex;
     justify-content: center;
     background-color: #FFF;
-
-
-
 }
-.banner-main-1{
+
+.banner-main-1 {
     background-image: url('../images/Group\ 14.png');
     background-size: 100% 100%;
 
 }
+
 .banner-main-11 {
     padding-left: 150px;
 
@@ -183,13 +182,15 @@
     padding-left: 72px;
 }
 
-.online-games-pic1{
+.online-games-pic1 {
     position: relative;
 }
-.online-games-pic1-size{
+
+.online-games-pic1-size {
     display: block;
 }
-.img-overlay{
+
+.img-overlay {
     position: absolute;
     top: 0;
     left: 70px;
@@ -204,21 +205,24 @@
     justify-content: center;
     opacity: 0;
 }
-.img-overlay:hover{
+
+.img-overlay:hover {
     opacity: 1;
 }
-.img-icon{
+
+.img-icon {
     font-size: 2rem;
     color: white;
 }
-.img-overlay .img-w{
+
+.img-overlay .img-w {
     font-size: 1.6rem;
     color: hotpink;
-    
+
 }
 
 
-.img2-overlay{
+.img2-overlay {
     position: absolute;
     top: 0;
     left: 0px;
@@ -233,17 +237,20 @@
     justify-content: center;
     opacity: 0;
 }
-.img2-overlay:hover{
+
+.img2-overlay:hover {
     opacity: 1;
 }
-.img2-icon{
+
+.img2-icon {
     font-size: 2rem;
     color: white;
 }
-.img2-overlay .img-w2{
+
+.img2-overlay .img-w2 {
     font-size: 1.6rem;
     color: hotpink;
-    
+
 }
 
 /* Here is the design of play instant section */
@@ -435,12 +442,13 @@ footer {
         display: flex;
         justify-content: center;
         align-items: center;
-   }
+    }
 
     .banner-main {
         flex-direction: column-reverse;
     }
-    .banner-main-1{
+
+    .banner-main-1 {
         background-size: 100% 100%;
     }
 
@@ -491,38 +499,160 @@ footer {
         margin: 30px 0 0 0;
 
     }
+
     .icon-main-container {
-        
+
         margin-bottom: 60px;
     }
-     .icon-container1,.icon-container2 {
+
+    .icon-container1,
+    .icon-container2 {
 
         margin-top: 0;
         margin-left: 0;
         flex-direction: column;
         display: grid;
-        grid-template-columns: repeat(2,1fr);
-        
-        
-    }
+        grid-template-columns: repeat(2, 1fr);
+}
 
-    .footer-2 ul, .footer-3 ul {
+    .footer-2 ul,
+    .footer-3 ul {
         flex-direction: column;
         display: grid;
-        grid-template-columns: repeat(3,1fr);
+        grid-template-columns: repeat(3, 1fr);
     }
+    .footer-3 ul{
+        margin-left: 35px;
+
+  }
+
     .footer-4 ul {
         flex-direction: column;
         display: grid;
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
-    .footer-5 p{
+
+    .footer-5 p {
         text-align: center;
     }
 
     footer {
         height: 800px;
     }
-
-
 }
+
+/* Design for tablet */
+@media screen and (min-width:426px) and (max-width:778px) {
+
+    .nav-options ul {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .nav-container {
+        flex-direction: column;
+
+    }
+
+    .nav-icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .banner-main {
+        flex-direction: column-reverse;
+    }
+
+    .banner-main-1 {
+        background-size: 100% 100%;
+    }
+
+    .banner-main-2 img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .banner-main-11 {
+        text-align: left;
+    }
+
+    .banner-main-2 {
+        padding-left: 15px;
+    }
+    .online-games-main2 {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    #online-games-pic1-size1 {
+        padding-left: 0;
+    }
+    .play-instant-main-sec {
+        flex-direction: column;
+    }
+
+    .play-instant-main1-description {
+        text-align: center;
+    }
+    .play-instant-pic1-pos {
+        height: 250px;
+        width: 200px;
+        position: relative;
+        top: 270px;
+        left: 100px;
+    }
+
+    .play-instant-pic2-pos {
+        height: 100%;
+        width: 100%;
+
+    }
+    .play-instant-main2 {
+        margin: 30px 0 0 0;
+
+    }
+
+    .icon-main-container {
+
+        margin-bottom: 60px;
+    }
+    .icon-container1,
+    .icon-container2 {
+
+        margin-top: 0;
+        margin-left: 0;
+        flex-direction: column;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+   }
+   .footer-2 ul,
+    .footer-3 ul {
+        flex-direction: column;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        
+    }
+    .footer-3 ul{
+          margin-left: 35px;
+
+    }
+
+    .footer-4 ul {
+        flex-direction: column;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .footer-5 p {
+        text-align: center;
+    }
+
+    footer {
+        height: 800px;
+    }
+}
+
+
+
